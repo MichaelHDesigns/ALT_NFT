@@ -15,14 +15,14 @@ module.exports = {
       url: `https://polygon-mumbai.infura.io/v3/${infuraId}`
       //url: "https://rpc-mumbai.matic.today",
       accounts: [privateKey]
-    }, */
+    }, 
     altcoinchain: {
       // Infura
     //  url: `https://altcoinchain.infura.io/v3/${infuraId}`,
       url: "https://rpc0.altcoinchain.org/rpc",
       accounts: [privateKey]
     }
-    
+    */
   },
   solidity: {
     version: "0.8.4",
