@@ -16,7 +16,7 @@ module.exports = {
       //url: "https://rpc-mumbai.matic.today",
       accounts: [privateKey]
     }, */
-    matic: {
+    altcoinchain: {
       // Infura
       url: `https://altcoinchain.infura.io/v3/${infuraId}`,
       url: "https://rpc0.altcoinchain.org/rpc",
