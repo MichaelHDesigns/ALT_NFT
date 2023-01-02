@@ -18,7 +18,7 @@ module.exports = {
     }, */
     altcoinchain: {
       // Infura
-      url: `https://altcoinchain.infura.io/v3/${infuraId}`,
+    //  url: `https://altcoinchain.infura.io/v3/${infuraId}`,
       url: "https://rpc0.altcoinchain.org/rpc",
       accounts: [privateKey]
     }
