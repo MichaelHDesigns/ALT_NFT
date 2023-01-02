@@ -7,7 +7,7 @@ module.exports = {
   defaultNetwork: "hardhat",
   networks: {
     hardhat: {
-      chainId: 1337
+      chainId: 2330
     },
     /*
     mumbai: {
@@ -15,14 +15,14 @@ module.exports = {
       url: `https://polygon-mumbai.infura.io/v3/${infuraId}`
       //url: "https://rpc-mumbai.matic.today",
       accounts: [privateKey]
-    },
+    }, */
     matic: {
       // Infura
-      url: `https://polygon-mainnet.infura.io/v3/${infuraId}`,
-      //url: "https://rpc-mainnet.maticvigil.com",
+      url: `https://altcoinchain.infura.io/v3/${infuraId}`,
+      url: "https://rpc0.altcoinchain.org/rpc",
       accounts: [privateKey]
     }
-    */
+    
   },
   solidity: {
     version: "0.8.4",
